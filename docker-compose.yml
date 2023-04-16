@@ -3,11 +3,11 @@ version: '3.7'
 services:
   db:
     image: mysql:latest
-    container_name: my-mysql
+    container_name: dsi320-mysql
     restart: always
     environment:
-      MYSQL_DATABASE: quotes
-      MYSQL_ROOT_PASSWORD: my-mysql
+      MYSQL_DATABASE: dsi320
+      MYSQL_ROOT_PASSWORD: dsi320
     ports:
       - "3306:3306"
     volumes:
