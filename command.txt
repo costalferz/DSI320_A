@@ -6,13 +6,16 @@ Ubuntu
     sudo apt install docker.io
     sudo apt install docker-compose
 docker-compose up -d
-sudo docker exec -it my-mysql bash
+
+RUN SQL
+sudo docker exec -it dsi320-mysql bash
 - Access Mysql
     mysql -u root -p
 - MYSQL COmmads
     show databases;
-    use mydb;
     show tables;
 - Create table
-
+    show tables;
 - INSERT table
+- SELECT table
+
