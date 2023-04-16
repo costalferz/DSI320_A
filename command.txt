@@ -1,3 +1,10 @@
+ssh -i dsi320 Azureuser@ipaddress
+
+Ubuntu
+    sudo apt-get update
+    sudo apt install curl
+    sudo apt install docker.io
+    sudo apt install docker-compose
 docker-compose up -d
 sudo docker exec -it my-mysql bash
 - Access Mysql
