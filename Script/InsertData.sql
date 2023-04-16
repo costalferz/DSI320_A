@@ -1,7 +1,16 @@
-INSERT INTO Music (music_id, title, artist, genre, duration)
-VALUES
-  (1, 'Bohemian Rhapsody', 'Queen', 'Rock', '00:05:54'),
-  (2, 'Stairway to Heaven', 'Led Zeppelin', 'Rock', '00:08:03'),
-  (3, 'Imagine', 'John Lennon', 'Pop', '00:03:04'),
-  (4, 'Billie Jean', 'Michael Jackson', 'Pop', '00:04:54'),
-  (5, 'Smells Like Teen Spirit', 'Nirvana', 'Grunge', '00:05:01');
+INSERT INTO Music (music_id, title, artist, genre, duration) 
+VALUES (1, 'Bohemian Rhapsody', 'Queen', 'Rock', '00:05:55'),
+       (2, 'Billie Jean', 'Michael Jackson', 'Pop', '00:04:53'),
+       (3, 'Stairway to Heaven', 'Led Zeppelin', 'Rock', '00:08:03'),
+       (4, 'Hotel California', 'Eagles', 'Rock', '00:06:30'),
+       (5, 'Like a Rolling Stone', 'Bob Dylan', 'Rock', '00:06:13'),
+       (6, 'Johnny B. Goode', 'Chuck Berry', 'Rock and roll', '00:02:38'),
+       (7, 'Smells Like Teen Spirit', 'Nirvana', 'Grunge', '00:05:01'),
+       (8, 'What\'s Going On', 'Marvin Gaye', 'Soul', '00:03:53'),
+       (9, 'Imagine', 'John Lennon', 'Pop', '00:03:04'),
+       (10, 'Yesterday', 'The Beatles', 'Pop', '00:02:05'),
+       (11, 'Sweet Child O\' Mine', 'Guns N\' Roses', 'Hard rock', '00:05:56'),
+       (12, 'Another Brick in the Wall', 'Pink Floyd', 'Rock', '00:03:11'),
+       (13, 'Hey Jude', 'The Beatles', 'Pop', '00:07:06'),
+       (14, 'Hallelujah', 'Jeff Buckley', 'Rock', '00:06:53'),
+       (15, 'Under Pressure', 'Queen', 'Rock', '00:04:04');

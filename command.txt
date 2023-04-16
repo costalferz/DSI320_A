@@ -2,3 +2,10 @@ docker-compose up -d
 sudo docker exec -it my-mysql bash
 - Access Mysql
     mysql -u root -p
+- MYSQL COmmads
+    show databases;
+    use mydb;
+    show tables;
+- Create table
+
+- INSERT table
